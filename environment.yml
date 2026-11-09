@@ -1,0 +1,9 @@
+name: disk-scout
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pytest
+  - flake8
