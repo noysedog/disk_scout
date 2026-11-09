@@ -1,0 +1,11 @@
+      - name: Setup Miniconda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-activate-base: false
+          activate-environment: disk-scout
+          environment-file: environment.yml
+
+      - name: Install dependencies
+        shell: bash -el {0}
+        run: |
+          conda env update --file environment.yml --name disk-scout
