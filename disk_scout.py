@@ -28,7 +28,7 @@ import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
-
+__version__ = "2.1.0"
 HOME = Path.home()
 GIB = 1024 ** 3
 MIB = 1024 ** 2
