@@ -37,7 +37,7 @@ The project uses Python's standard library for its runtime functionality.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/disk_scout.git
+git clone https://github.com/noysedog/disk_scout.git
 cd disk_scout
 ```
 
